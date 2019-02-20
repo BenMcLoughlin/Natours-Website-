@@ -1,0 +1,22 @@
+{
+  "name": "starter-round2",
+  "version": "1.0.0",
+  "description": "Bens Second attempt at building the Natours site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenMcLoughlin/Natours-Website-.git"
+  },
+  "author": "Ben McLoughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenMcLoughlin/Natours-Website-/issues"
+  },
+  "homepage": "https://github.com/BenMcLoughlin/Natours-Website-#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

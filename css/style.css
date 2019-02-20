@@ -108,13 +108,8 @@ body {
 	top: 0;
 	left: 0;
 	z-index: -1;
-<<<<<<< HEAD
-	transition: all .4s;
+	transition: all .4s
 
-}
-
-.btn-white::after {
-	background-color: #fff;
 }
 
 .btn:hover::after {
@@ -124,18 +119,9 @@ body {
 
 .btn-animated {
 	animation: MoveInBottom .5s ease-out .75s;
-}
-=======
-	transition: all .4s
-
+	animation-fill-mode: backwards;
 }
 
-.btn:hover::after {
-	transform: scale(5);
-	opacity: 0;
-}
-
->>>>>>> b95d912b4f8dd66b973d3f066313e7a93cca89b4
 @keyframes MoveInLeft {
 	0%{
 		opacity: 0;
@@ -165,22 +151,12 @@ body {
 	}
 }
 
-<<<<<<< HEAD
 @keyframes MoveInBottom {
 	0%{
 		opacity: 0;
 		transform: translateY(30px);
-=======
-@keyframes MoveInButton {
-	0%{
-		opacity: 0;
-		transform: translateY(100px);
 	}
-	80%{
-		opacity: 1;
-		transform: translateY(-10px);
->>>>>>> b95d912b4f8dd66b973d3f066313e7a93cca89b4
-	}
+
 	100%{
 		opacity: 1;
 		transform: translate(0);

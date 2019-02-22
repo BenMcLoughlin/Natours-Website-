@@ -1,0 +1,8 @@
+@mixin clearfix {
+	&::after {
+		content: ""; //must be specified as 0 because we don't want to see the content
+		display: table;
+		clear: both; //clears both left and right floats
+	}
+
+}

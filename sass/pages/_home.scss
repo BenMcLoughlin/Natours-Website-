@@ -3,6 +3,7 @@
 	background-color:$color-grey-light-1;
 	padding: 25rem 0;
 	margin-top:-25rem; //this is to bring it up so that the grey is all the way through
+	margin-bottom:15rem;
 }
 
 .about-text {
@@ -11,6 +12,28 @@
 }
 
 
+.section-features {
+	padding: 20rem 0;
+	background-image: linear-gradient(to right bottom,
+	rgba($color-primary-light, .8),
+	rgba($color-primary-dark, .8)),
+	url(../img/nat-4.jpg);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	transform: skewY(-7deg);
+	margin-top:-25rem;
+	& > * {
+		transform: skewY(7deg)
+	}
+
+}
+.section-tours {
+	background-color:$color-grey-light-1;
+	padding: 25rem 0 50rem 0;
+	margin-top:-10rem; //this is to bring it up so that the grey is all the way through
+	margin-bottom:15rem;
+}
 
 
 
